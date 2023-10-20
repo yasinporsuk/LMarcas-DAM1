@@ -1,0 +1,12 @@
+#MenuPrincipal {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+#MenuPrincipal li {
+    margin: 2px;
+    padding: 2px;
+    border:1px solid;
+    border-color: navy;
+
+}
