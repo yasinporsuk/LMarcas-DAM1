@@ -62,16 +62,17 @@ footer {
 .columnaizquierda {
   float: left;
   width: 75%;
+  
 }
 
 .columnaderecha {
   float: left;
   width: 25%;
-  background-color: #f1f1f1;
+  background-color: lightgray;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 20px;
-  height: 1200px;
+  height: 1380px;
 }
 .columnaunica{
   float: left;
@@ -84,8 +85,20 @@ section {
   background-color: white;
 }
 
+.tabla{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 table, th, td {
   border: 1px solid black;
+  padding: 10px;
+}
+
+section h4{
+  color: red;
 }
 
 article {
